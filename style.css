@@ -28,9 +28,8 @@ img {
     display: block;
 }
 
-h1 {
+h2 {
     font-size: 1rem;
-    line-height: 1.2;
 }
 
 p {
@@ -148,6 +147,18 @@ p {
     height: 35px;
 }
 
+/* for improve accessibility only */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
 
 @media screen and (max-width: 800px) {
     .testimonials {
